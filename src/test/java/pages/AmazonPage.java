@@ -1,2 +1,20 @@
-package pages;public class AmazonPage {
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
+
+import java.awt.print.PageFormat;
+
+public class AmazonPage {
+    public AmazonPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+    @FindBy(id="twotabsearchtextbox")
+    public WebElement searchbox;
+    @FindBy(xpath = "//div[@class=\"a-section a-spacing-small a-spacing-top-small\"]")
+    public WebElement result;
+
 }

@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day;
+package seleniumThirdWeek4Day.Day4;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;

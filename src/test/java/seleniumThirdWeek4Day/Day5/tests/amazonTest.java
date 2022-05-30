@@ -3,7 +3,7 @@ package seleniumThirdWeek4Day.Day5.tests;
 import org.testng.annotations.Test;
 import utilities.Driver;
 
-public class test1 {
+public class amazonTest {
     @Test
     public void testName() {
         Driver.getDriver().get("https://www.amazon.com");

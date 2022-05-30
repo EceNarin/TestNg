@@ -1,0 +1,103 @@
+
+
+            1
+            1) Bir class oluşturun: YoutubeAssertions
+            2) https://www.youtube.com adresine gidin
+            3) Aşağıdaki adları kullanarak 4 test metodu oluşturun ve gerekli testleri yapin
+            ○ titleTest => Sayfa başlığının “YouTube” oldugunu test edin
+            ○ imageTest => YouTube resminin görüntülendiğini (isDisplayed()) test edin
+            ○ Search Box 'in erisilebilir oldugunu test edin (isEnabled())
+            ○ wrongTitleTest => Sayfa basliginin “youtube” olmadigini dogrulayin
+
+            2
+            dependsOnMethods Class Work
+
+            ● Bir class oluşturun: DependsOnTest
+            ● https://www.amazon.com/ adresine gidin.
+            1. Test : Amazon ana sayfaya gittiginizi test edin
+            2. Test : 1.Test basarili ise search Box’i kullanarak “Nutella” icin
+            arama yapin ve aramanizin gerceklestigini Test edin
+            3.Test : “Nutella” icin arama yapildiysa ilk urunu tiklayin ve fiyatinin
+            $16.83 oldugunu test edin
+
+            3
+            Yeni bir Class Olusturun : C03_SoftAssert
+            1. “http://zero.webappsecurity.com/” Adresine gidin
+            2. Sign in butonuna basin
+            3. Login kutusuna “username” yazin
+            4. Password kutusuna “password” yazin
+            5. Sign in tusuna basin
+            6. Online banking menusu icinde Pay Bills sayfasina gidin
+            7. “Purchase Foreign Currency” tusuna basin
+            8. “Currency” drop down menusunden Eurozone’u secin
+            9. soft assert kullanarak "Eurozone (Euro)" secildigini test edin
+            10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin
+            "Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China
+            (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong
+            (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand
+            (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
+
+            4
+            1 -https://www.facebook.com/ adresine gidin
+            2- POM’a uygun olarak email, sifre kutularini ve giris yap
+            butonunu locate edin
+            3- Faker class’ini kullanarak email ve sifre degerlerini
+            yazdirip, giris butonuna basin
+            4- Basarili giris yapilamadigini test edin
+
+            5
+            1 ) Bir Class olustur : PositiveTest
+            2) Bir test method olustur positiveLoginTest()
+            https://www.hotelmycamp.com/ adresine git
+            login butonuna bas
+            test data username: manager ,
+            test data password : Manager1!
+            Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
+
+            6
+            1 ) Bir Class olustur : NegativeTest
+            2) Bir test method olustur NegativeLoginTest()
+            https://www.hotelmycamp.com/ adresine git
+            login butonuna bas
+            test data username: manager1 ,
+            test data password : manager1!
+            Degerleri girildiginde sayfaya girilemedigini test et
+
+
+
+// 1."https://react-shopping-cart-67954.firebaseapp.com/" adresine gidin
+// 2.Web sitesindeki tüm öğeleri listeleyin ve yazdirin
+// (sitede 16 urun var, 1.urun : 2.urun :.....seklinde yazdirin )
+// 3.Stringlerden olusan bir ArrayList oluşturun ve Ürün Adlarını ArrayList'e yerleştirin
+// 4.Siteden Rastgele 5 öğe seçin, sepete ekleyin ve sectiginiz öğelerin adlarını yazdırın
+// (Her ürün 1 defadan fazla eklenemez!)
+// 5.Her bir öğenin fiyatını toplayın ve sonucunuzu web sitesiyle karşılaştırın
+// 6.Sonuçlar eşleşiyorsa  konsola test pass yazirin
+// 7.Checkout'a tıklayın
+
+TASK 1 - JUnit ve TestBase kullanmadan main metot ile yapılacak.
+1. Driver oluştur.
+2. Pencereyi tam ekran yap.
+3. 15 saniye bekleme ayarı yap.
+4. https://www.trivago.com/ adresine git
+5. Site başlığının "hotel" kelimesi içerdiğini doğrula. Başlığı yazdır.
+6. Site adresinin https://www.trivago.com/ olduğunu doğrula. Adresi yazdır.
+7. Tepe menüdeki Cars linkini üç farklı locator kullanarak locate et. Locatorleri yazdır.
+
+TASK 2
+1. https://www.trivago.com/ adresine git
+2. Tepe menüdeki Flights linkine tıkla. Kendisi yeni sekmede açılacak. Oraya gidecek.
+3. Sayfayı en aşağı kaydır. Sonra tekrar en yukarı kaydır. (Göz attık.)
+4. Ana sayfaya (açık olan önceki sekmeye) dön.
+5. All stays - Hotel - House / Apartment sekmelerinden Hotel sekmesine tıkla.
+6. Arama kutusuna Seychelles yaz.
+7. 2022 yazı için 2 haftalık bir tarih aralığı seç.
+8. 2 yetişkin seç.
+9. Search'e tıkla.
+10. Gelen sonuçlarda Guest rating üzerine gel ve Very good'u seç.
+11. More filters üzerine gel, Hotel class'ta 4 ve 5 yıldızı seç, popular filters'tan Beach seç.
+12. En üstteki sonucun resmi üzerine gel. More photos linkinin göründüğünü doğrula. Linke tıkla.
+13. Resimlerin altta göründüğünü doğrula.
+14. En üstteki sonucun adının ve yıldızlarının altında konumu yazıyor, tıkla.
+15. Sağ taraftaki haritada otel işaretlenecek. Haritayı locate et.
+16. Hoteli haritada drag & drop yaparak ortala, + tuşuyla zoom yap.

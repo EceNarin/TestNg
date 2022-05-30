@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day;
+package seleniumThirdWeek4Day.Day4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

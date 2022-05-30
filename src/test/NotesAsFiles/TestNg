@@ -1,0 +1,138 @@
+
+
+                TestNG ile olusturacagimiz framework gunumuzde de
+                kullanilabilecek bir framework olacaktir
+                ❖ Olusturacagimiz framework’de testlerimizi
+                yazacagimiz tests package’i disinda bazi package ve
+                class’lar da olusturacagiz
+                1. Create Project: File -> New -> Project-> Select maven -> click next
+                2. Isim: com.batch44TestNG -> finish
+                cikarsa EnableAutoimport’u tiklayin
+                3. src/test/java altinda yeni package olusturun, isim : tests
+                4. src/test/jav altinda yeni bir package daha olusturun, isim : utilities
+                5. tests package altina yeni package olusturun isim: day07
+                6. day07 package altina yeni class olusturun isim: C01
+
+                     @Test annotation
+
+                ➢ En cok kullanilan TestNG notasyonudur.
+
+                ➢ Method’u test case olarak işaretler ve calistirir.
+                Ayrica bir Main Method’a ihtiyac duymaz
+                     @Before @After Annotations.
+                NOT :
+                Bu notasyonlar
+                kullanilinca her method
+                icin ayri ayri calismaz,
+                soylendigi sekilde
+                sadece bir kere calisir.
+                NOT : Her methoddan once veya sonra calisir. (JUnit deki @Before method’u gibi)
+
+
+                TestNG (default) olarak @Test
+                methodlarıni alfabetik sıraya göre run
+                eder. (Yukardan asagi degil!)
+
+                ➢ priority annotation Testlere öncelik
+                vermek için kullanılır. Kucuk olan Numara
+                daha once calisir
+
+                ➢ priority yazmayan Test method’u varsa
+                priority= 0 kabul edilir, siralama buna
+                gore yapilir
+
+                dependsOnMethods
+                ➢ Bu yontem, bir metodun diğer bir metoda bağlı
+                olmasını sağlamak için kullanılır.
+
+                ➢ Yandaki ornekte, amazonAnasayfaTest metdod’u
+                amazonTest method’una bağlıdır. Yani, amazonTest
+                başarılı olursa amazonAnasayfaTest de çalisacaktir.
+
+                ➢ Diger durumda yani, amazonTest başarısız olursa
+                amazonAnasayfaTest ignore edilecek, hic
+                çalismayacaktir.
+
+                ➢ Yalnızca amazonAnasayfaTest method’unu çalıştırırsak bile, TestNG önce amazonTest metodunu
+                çalıştırır. amazonTest başarılı olursa searchTest yürütülür
+
+                ➢ Ustteki madde sadece 2 method icin gecerlidir. 3 method’u birbirine baglayip 3.method’u calistirirsaniz,
+                1.method’a kadar gitmez.
+                Test Otomasyonun temel noktalarından biri Assertions’dır.
+                ➢ Her bir test case icin bir Assertion veya Verification kullanmalıyız.
+
+                ➢ TestNG ile iki cesit Asertion yapmak
+                mumkundur.
+
+                1 ) Junit’te kullandigimiz sekilde
+                Assert Class’indan method’lar
+                kullanarak yapmak.
+
+                2 ) Junit’te olmayan, TestNG’ye ozel
+                olarak kullanabilecegimiz
+                SoftAssert Class’indan method’lar
+                kullanarak yapmak.
+
+
+                1. HARD ASSERT
+                JUnit'te Öğrendiğimiz Assertion ile aynidir. TestNG’de soft assertion da oldugundan, ayristirmak icin
+                bu isim kullanilmistir.
+                JUnit’ten bildigimiz uzere kullanabilecegimiz 3 cesit hard assertion turu vardir
+
+                i. Assert.assertEquals( )
+                ii. Assert.assertTrue( )
+                iii. Assert.assertFalse( )
+
+                Hard assertion herhangi bir assertion FAILED olursa, test method’nun calismasini durdurur ve
+                kalan kodlari yürütmez (stops execution).
+
+                Test case’in nerede FAILED olduğunu hemen anlamak ve kod’a direk mudahale etmek istenirse
+                hard assertion tercih edilebilir.
+
+                2. SOFT ASSERT (VERIFICATION)
+
+                Assertions
+
+                softAssert kullandigimizda, assert FAILED
+                olsa bile test method’unun istediginiz kismini
+                durdurmaz ve yürütmeye devam eder. İf else
+                statement’da olduğu gibi.
+
+                Test method’unun istedigimiz bolumde yapilan
+                tum testleri raporlar
+
+                Eger assertion’lardan FAILED olan varsa raporlama yapilan satirdan sonrasini calistirmaz.
+                SoftAssert doğrulama (verification) olarak da
+                bilinir.
+
+                SoftAssert class’indaki method’lari kullanmak icin kullanabilmemiz için object olusturmamiz gerekir.
+
+                Soft Assert
+
+                • 1.Adım: SoftAssert objesi olusturalim
+
+                SoftAssert softAssert = new SoftAssert( );
+
+                • 2.Adım: Istedigimiz sayida verification’lari yapalim
+
+                softAssert.assertTrue( );
+                softAssert.assertFalse( ); ....
+
+                • 3.Adım: SoftAssert’in durumu raporlamasini isteyelim
+
+                softAssert.assertAll();
+                Soft Assert vs Hard Assert
+
+                ● Ortak ozellikleri
+
+                SoftAssert ve HardAssert method’ları TestNG’den gelmektedir.
+
+                Kullanma amaçları farklı olsa da method’lar aynıdır.
+
+                ● Farklari
+
+                • Hard Assertion fail olursa test method’larının execute etmesi durur. Ve FAILED olarak
+                tanımlanır.
+
+                • Eğer softAssert FAIL olursa test method’ları execute etmeye devam eder. assertAll
+                dedigimizde FAILED olan assertion varsa execution durur.

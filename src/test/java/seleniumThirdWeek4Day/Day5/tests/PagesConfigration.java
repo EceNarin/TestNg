@@ -1,4 +1,4 @@
-package tests;
+package seleniumThirdWeek4Day.Day5.tests;
 
 import org.junit.Assert;
 import org.openqa.selenium.Keys;

@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day.Day5.tests;
+package Selenium4Weeks;
 
 public class E2ETest {
     //1. Tests packagenin altına class olusturun: CreateHotel

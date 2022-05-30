@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day.Day5.tests;
+package Selenium4Weeks;
 
 public class SmokeTest2 {
     //1) smokeTest paketi altinda yeni bir Class olustur: NegativeTest
