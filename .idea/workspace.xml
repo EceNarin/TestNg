@@ -22,7 +22,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DemoGuru.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/FaceBookPages.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/DependOnMethod4.java" afterDir="false" />
