@@ -5,42 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/POM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/POMOzet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/SmokeTestAndE2E" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/Tasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/TestNg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FaceBookPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/DependOnMethod4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/PriotryAnnotations3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/SoftAssertClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/TestNGAssertionsSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/TestNGBeforeMethodAfterMethod1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/TestNgBeforeClassAfterClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/YouTubeTaskPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/FaceBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelMolyNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/PagesConfigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/amazonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Day6_ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/HardTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/NotesAsFiles/TestNg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/TestNg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,60 +35,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\NotesAsFiles" />
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task1.test">
-    <configuration name="Day6_ConfigReader" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day6" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day6.Day6_ConfigReader" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day6_ConfigReader.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day6" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day6.Day6_ConfigReader" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelMolyNegativeTest.NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ddd.test">
+    <configuration name="SmokeTest1.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
@@ -126,27 +61,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.HotelMolyNegativeTest" />
-      <option name="METHOD_NAME" value="NegativeLoginTest" />
+      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
+      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.SmokeTest1" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day6" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day6.Task1" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -171,13 +89,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ddd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium4Weeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
+      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ddd.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium4Weeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
+      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ddd.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium4Weeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
+      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ddd.test" />
+        <item itemvalue="TestNG.ddd.test (1)" />
+        <item itemvalue="TestNG.ddd" />
+        <item itemvalue="TestNG.SmokeTest1.positiveLoginTest" />
         <item itemvalue="TestNG.Task1.test" />
-        <item itemvalue="TestNG.Task1" />
-        <item itemvalue="TestNG.Day6_ConfigReader" />
-        <item itemvalue="TestNG.Day6_ConfigReader.test" />
-        <item itemvalue="TestNG.HotelMolyNegativeTest.NegativeLoginTest" />
       </list>
     </recent_temporary>
   </component>

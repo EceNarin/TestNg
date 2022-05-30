@@ -136,3 +136,4 @@
 
                 • Eğer softAssert FAIL olursa test method’ları execute etmeye devam eder. assertAll
                 dedigimizde FAILED olan assertion varsa execution durur.
+

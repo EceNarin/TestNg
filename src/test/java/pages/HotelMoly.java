@@ -17,6 +17,8 @@ public class HotelMoly {
     public WebElement submit;
     @FindBy(linkText = "Log in")
     public WebElement logIn;
+    @FindBy(xpath = "//span[@class=\"caption-subject font-green-sharp bold uppercase\"]")
+    public WebElement successLogin;
 
 
 }
