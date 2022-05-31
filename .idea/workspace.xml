@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/JavaScipt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/DependsOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MySpecificTask/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MySpecificTask/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SauceDemoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ScreenShoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/AlertDependsOn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeNegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/Tasks/HardTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/Tasks/HardTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +48,60 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SoftAllertTask.testName">
+  <component name="RunManager" selected="TestNG.AlertDependsOn.test2">
+    <configuration name="AlertDependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Elf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertDependsOn.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Elf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertDependsOn.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Elf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
@@ -73,60 +113,6 @@
       <option name="PACKAGE_NAME" value="Elf" />
       <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependsOn.amazon" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
-      <option name="METHOD_NAME" value="amazon" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependsOn.facebook" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
-      <option name="METHOD_NAME" value="facebook" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependsOn.google" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
-      <option name="METHOD_NAME" value="google" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertDependsOn.test2" />
+        <item itemvalue="TestNG.AlertDependsOn.test1" />
+        <item itemvalue="TestNG.AlertDependsOn" />
         <item itemvalue="TestNG.SoftAllertTask.testName" />
         <item itemvalue="TestNG.DependsOn" />
-        <item itemvalue="TestNG.DependsOn.google" />
-        <item itemvalue="TestNG.DependsOn.facebook" />
-        <item itemvalue="TestNG.DependsOn.amazon" />
       </list>
     </recent_temporary>
   </component>
