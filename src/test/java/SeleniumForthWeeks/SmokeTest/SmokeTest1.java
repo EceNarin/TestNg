@@ -1,6 +1,5 @@
-package Selenium4Weeks.SmokeTest;
+package SeleniumForthWeeks.SmokeTest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -25,6 +24,8 @@ public class SmokeTest1 {
         actions.click(moly.username).sendKeys(ConfigReader.getProperty("molyUser")).sendKeys(Keys.TAB).sendKeys(ConfigReader.getProperty("molyPassword"))
                 .sendKeys(Keys.TAB).sendKeys(Keys.ENTER).perform();
         //Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
+        //WebDriverWait wait= new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+       //WebElement x=wait.until(ExpectedConditions.visibilityOfElementLocated((By) moly.successLogin));
         Assert.assertTrue(moly.successLogin.isDisplayed());
         Driver.getClose();
 

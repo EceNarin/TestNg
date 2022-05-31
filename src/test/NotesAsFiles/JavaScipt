@@ -1,0 +1,64 @@
+          Js Executors
+
+            Selenium ile web elementlerinin kontrollerini sağlarken selenium komutları yetersiz kalabilir veya
+            sorunlarla karşılaşabiliriz.
+
+
+            Bu durumlarda alternatif olarak üstesinden
+            gelmek için JavascriptExecutor class’ini dahil
+            edebiliriz.
+
+
+            JavaScript HTML kodlara direk erişip yönetebilen bir script dili olduğundan bize çok fazla
+            kolaylık sağlayabilir.
+
+
+            1.Adim : JavascriptExecutor kullanmak icin ilk adim olarak driver’imizi JavascriptExecutor’a cast edelim
+
+                     JavascriptExecutor js=(JavascriptExecutor)driver;
+
+            2.Adim : Kullanacagimiz WebElement’I locate edelim
+
+                    WebElement we=driver.findElemet(By.xpatht("");
+
+            3.Adim : Js driver ile executeScript method’unu calistiralim,
+            icine parameter olarak ilgili script ve webelemnt’I yazalim
+
+                        js.executeScript("arguments[0].click()",we);
+                        ornegi asagida
+
+            Ornegin Sell elementine click yapmak icin
+
+                        js.executeScript("arguments[0].click()",we);
+
+            scroll icin
+                       js.executeScript("arguments[0].scrollIntoView(true)",we);
+
+
+
+            WebElement search= Driver.getDriver().findElement(By.xpath("//input[@type=\"search\"]"));
+            search.sendKeys("Seychelles"+Keys.ENTER);
+                               Actions action=new Actions(Driver.getDriver());
+                               Thread.sleep(2000);
+                               //action.click(Driver.getDriver().findElement(By.xpath("//input[@type=\"search\"]"))).sendKeys("Seychelles").sendKeys(Keys.TAB).perform();
+                               //action.clickAndHold(Driver.getDriver().findElement(By.xpath("//span[@data-testid=\"checkin-calendar-subline\"]")))
+                               //.sendKeys(Driver.getDriver().findElement(By.xpath("//time[@datetime=\"2022-06-17\"]"))).click().perform();
+
+                               Thread.sleep(2000);
+                               <dependency>
+                                   <groupId> org.apache.cassandra</groupId>
+                                   <artifactId>cassandra-all</artifactId>
+                                   <version>0.8.1</version>
+
+                                   <exclusions>
+                                     <exclusion>
+                                       <groupId>org.slf4j</groupId>
+                                       <artifactId>slf4j-log4j12</artifactId>
+                                     </exclusion>
+                                     <exclusion>
+                                       <groupId>log4j</groupId>
+                                       <artifactId>log4j</artifactId>
+                                     </exclusion>
+                                   </exclusions>
+
+                                 </dependency>

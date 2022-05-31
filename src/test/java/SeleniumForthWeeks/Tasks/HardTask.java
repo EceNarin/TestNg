@@ -1,4 +1,4 @@
-package Selenium4Weeks.Tasks;
+package SeleniumForthWeeks.Tasks;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,6 @@ import org.testng.asserts.SoftAssert;
 import utilities.Driver;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -20,6 +20,6 @@ public class HotelMoly {
     @FindBy(xpath = "//span[@class=\"caption-subject font-green-sharp bold uppercase\"]")
     public WebElement successLogin;
     @FindBy(xpath = "//div[@id=\"divMessageResult\"]")
-    public WebElement UnSuccessLogin;
+    public  WebElement UnSuccessLogin;
 
 }

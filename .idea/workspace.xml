@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/JavaScipt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MySpecificTask/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MySpecificTask/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SauceDemoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ScreenShoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/HardTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/Tasks/HardTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/E2ETest/E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/SmokeTest/SmokeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium4Weeks/Tasks/HardTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/Tasks/HardTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HotelMoly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,53 +61,17 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SmokeNegativeTest.test">
-    <configuration name="SmokeNegativeTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SoftAllertTask.testName">
+    <configuration name="DependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.SmokeTest.*" />
+          <option name="PATTERN" value="Elf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks.SmokeTest" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.SmokeTest.SmokeNegativeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeTest1.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.SmokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.SmokeTest.SmokeTest1" />
-      <option name="METHOD_NAME" value="positiveLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ddd" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.SmokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -108,17 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddd.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependsOn.amazon" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.*" />
+          <option name="PATTERN" value="Elf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
+      <option name="METHOD_NAME" value="amazon" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,17 +97,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddd.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependsOn.facebook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.SmokeTest.*" />
+          <option name="PATTERN" value="Elf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
+      <option name="METHOD_NAME" value="facebook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,17 +115,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddd.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependsOn.google" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium4Weeks.SmokeTest.*" />
+          <option name="PATTERN" value="Elf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium4Weeks" />
-      <option name="MAIN_CLASS_NAME" value="Selenium4Weeks.ddd" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
+      <option name="METHOD_NAME" value="google" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAllertTask.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Elf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Elf" />
+      <option name="MAIN_CLASS_NAME" value="Elf.SoftAllertTask" />
+      <option name="METHOD_NAME" value="testName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SmokeNegativeTest.test" />
-        <item itemvalue="TestNG.ddd.test" />
-        <item itemvalue="TestNG.ddd.test (1)" />
-        <item itemvalue="TestNG.ddd" />
-        <item itemvalue="TestNG.SmokeTest1.positiveLoginTest" />
+        <item itemvalue="TestNG.SoftAllertTask.testName" />
+        <item itemvalue="TestNG.DependsOn" />
+        <item itemvalue="TestNG.DependsOn.google" />
+        <item itemvalue="TestNG.DependsOn.facebook" />
+        <item itemvalue="TestNG.DependsOn.amazon" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +189,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/YouTubeTaskPriority.java</url>
           <line>17</line>
-          <properties class="seleniumThirdWeek4Day.YouTubeTaskPriority" method="titleTest">
+          <properties class="seleniumThirdWeek4Day.Day4.YouTubeTaskPriority" method="titleTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -210,6 +199,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utilities/ScreenShoot.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
