@@ -1,4 +1,4 @@
-package Selenium4Weeks;
+package Selenium4Weeks.Tasks;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
