@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/AlertDependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/DragAndDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertDependsOn.test2">
+  <component name="RunManager" selected="TestNG.DragAndDrop.testName">
     <configuration name="AlertDependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
@@ -102,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDrop.testName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +111,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.DependsOn" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Elf.DragAndDrop" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DragAndDrop.testName" />
         <item itemvalue="TestNG.AlertDependsOn.test2" />
         <item itemvalue="TestNG.AlertDependsOn.test1" />
         <item itemvalue="TestNG.AlertDependsOn" />
         <item itemvalue="TestNG.SoftAllertTask.testName" />
-        <item itemvalue="TestNG.DependsOn" />
       </list>
     </recent_temporary>
   </component>
