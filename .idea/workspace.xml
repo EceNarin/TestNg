@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Elf/DragAndDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,42 +50,7 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragAndDrop.testName">
-    <configuration name="AlertDependsOn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertDependsOn.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.E2ETest2.RoomCreateTest">
     <configuration name="AlertDependsOn.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
@@ -120,18 +87,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAllertTask.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E2ETest2.RoomCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Elf.*" />
+          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.SoftAllertTask" />
-      <option name="METHOD_NAME" value="testName" />
+      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETest2" />
+      <option name="METHOD_NAME" value="RoomCreateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2ETest.E2E" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETest" />
+      <option name="METHOD_NAME" value="E2E" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MySpecificTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MySpecificTask" />
+      <option name="MAIN_CLASS_NAME" value="MySpecificTask.Task2" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E2ETest2.RoomCreateTest" />
+        <item itemvalue="TestNG.E2ETest.E2E" />
+        <item itemvalue="TestNG.Task2" />
         <item itemvalue="TestNG.DragAndDrop.testName" />
         <item itemvalue="TestNG.AlertDependsOn.test2" />
-        <item itemvalue="TestNG.AlertDependsOn.test1" />
-        <item itemvalue="TestNG.AlertDependsOn" />
-        <item itemvalue="TestNG.SoftAllertTask.testName" />
       </list>
     </recent_temporary>
   </component>
