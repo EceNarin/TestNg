@@ -1,0 +1,60 @@
+
+
+            XML File Class Work
+            Istenen Package’lari Calistirma
+
+            ➢ Yeni bir xml dosyasi olusturalim :
+            belirliPackageCalistirma
+
+            ➢ Smoke Test package’indaki tum testleri calistiralim
+            ================================================
+            Istenen Class’lari Calistirma
+            ➢ Yeni bir xml dosyasi olusturalim :
+            belirliClasslariCalistirma
+
+            ➢ <package> attribute yerine <classes> ve sonra <class> attribute kullanarak istediginiz
+            class’lari calistirin
+            ====================================
+            Istenen Method’lari Calistirma
+
+            ➢ Yeni bir xml dosyasi olusturalim : belirliMethodlariCalistirma
+            ➢ <classes> attribute altinda <class> ve <methods> attribute’lerini ve icinde <include>,
+            <exclude> attribute’lerini kullanalim
+            ========================================================
+            Istenen Gruplari Calistirma
+            ➢ Yeni bir xml dosyasi olusturalim : belirliGruplariCalistirma
+            ➢ Group calistirmak icin hem grup adini tanimlamak hem de nerede arayacagimizi
+            belirtmek zorundayiz
+
+            <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+            <suite name="minor regression" verbose="2">
+            <test name="Regression1">
+            <groups>
+            <run>
+            <include name="Regression1" />
+            </run>
+            </groups>
+            <packages>
+            <package name="com.techproed.smokeTest"></package>
+            </packages>
+            </test>
+            </suite>
+            ============================================
+            Istenen Gruplari Calistirma
+            ➢ Yeni bir xml dosyasi olusturalim : belirliGruplariCalistirma
+            ➢ Group calistirmak icin hem grup adini tanimlamak hem de nerede arayacagimizi
+            belirtmek zorundayiz
+
+            <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+            <suite name="minor regression" verbose="2">
+            <test name="Regression1">
+            <groups>
+            <run>
+            <include name="Regression1" />
+            </run>
+            </groups>
+            <packages>
+            <package name="com.techproed.smokeTest"></package>
+            </packages>
+            </test>
+            </suite>
