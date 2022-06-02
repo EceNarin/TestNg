@@ -4,6 +4,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.BlueCar;
 import pages.HotelMoly;
 import utilities.ConfigReader;
 import utilities.Driver;
@@ -14,8 +15,9 @@ public class SmokeTest1 {
     @Test
     public void positiveLoginTest() {
         HotelMoly moly=new HotelMoly();
+
         //https://www.hotelmycamp.com adresine git
-        Driver.getDriver().get(ConfigReader.getProperty("hotelMoly"));
+        Driver.getDriver().get(ConfigReader.getProperty("hotelMolyUrl"));
         //login butonuna bas
         moly.logIn.click();
         //test data username: manager

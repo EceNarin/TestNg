@@ -1,0 +1,8 @@
+thread.sleep related java   ---> thread.sleep(3000); will wait during 3 seconds even code invoke or not
+implicitly wait related to selenium --->wait during parametr and invoke every row codes and when finished all
+cases will close
+explicitly wait---> waiting for specific some codes which are taking long time  after this codes invoke
+implicitly chronometer working again
+we are usingn expectedConditions class
+ WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(12));
+WebElement x=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));

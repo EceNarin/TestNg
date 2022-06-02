@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/Wait" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETestCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/NegSmokeCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/NegSmokeTestRentCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/PosSmokeCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BlueCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/E2ETest/E2ETest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/SmokeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +57,17 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E2ETest2.RoomCreateTest">
-    <configuration name="AlertDependsOn.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E2ETestCar.testName">
+    <configuration name="E2ETestCar.testName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Elf.*" />
+          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.AlertDependsOn" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DragAndDrop.testName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Elf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Elf" />
-      <option name="MAIN_CLASS_NAME" value="Elf.DragAndDrop" />
+      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETestCar" />
       <option name="METHOD_NAME" value="testName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -87,17 +76,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest2.RoomCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegSmokeCarTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
+          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETest2" />
-      <option name="METHOD_NAME" value="RoomCreateTest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.SmokeTest.NegSmokeCarTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,17 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E2ETest.E2E" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PosSmokeCarTest.testName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
+          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETest" />
-      <option name="METHOD_NAME" value="E2E" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.SmokeTest.PosSmokeCarTest" />
+      <option name="METHOD_NAME" value="testName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,17 +112,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SmokeTest1.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MySpecificTask.*" />
+          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MySpecificTask" />
-      <option name="MAIN_CLASS_NAME" value="MySpecificTask.Task2" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.SmokeTest.SmokeTest1" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ggg.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.ggg" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E2ETest2.RoomCreateTest" />
-        <item itemvalue="TestNG.E2ETest.E2E" />
-        <item itemvalue="TestNG.Task2" />
-        <item itemvalue="TestNG.DragAndDrop.testName" />
-        <item itemvalue="TestNG.AlertDependsOn.test2" />
+        <item itemvalue="TestNG.E2ETestCar.testName" />
+        <item itemvalue="TestNG.NegSmokeCarTest.test" />
+        <item itemvalue="TestNG.PosSmokeCarTest.testName" />
+        <item itemvalue="TestNG.SmokeTest1.positiveLoginTest" />
+        <item itemvalue="TestNG.ggg.testName" />
       </list>
     </recent_temporary>
   </component>
