@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/XmlFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/XmlFileClasswork" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyAllproducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyTestCasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SomeClassInvokes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/somePackagesInvoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/SubscriptionHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/VerifyCartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyTestCasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyTestCasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,35 +56,37 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyAllproducts.test">
-    <configuration name="E2ETestCar.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/SomeClassInvokes.xml">
+    <configuration name="C:/Users/himer/IdeaProjects/TestNg_com/SomeClassInvokes.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumForthWeeks.E2ETest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.E2ETest.E2ETestCar" />
-      <option name="METHOD_NAME" value="testName" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SomeClassInvokes.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegSmokeCarTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/himer/IdeaProjects/TestNg_com/somePackagesInvoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/somePackagesInvoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionHomePage.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.SmokeTest.NegSmokeCarTest" />
+      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day4" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day4.SubscriptionHomePage" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -93,34 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PosSmokeCarTest.testName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumForthWeeks.SmokeTest.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumForthWeeks.E2ETest" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumForthWeeks.SmokeTest.PosSmokeCarTest" />
-      <option name="METHOD_NAME" value="testName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyAllproducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.AutomationExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyAllproducts" />
+      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day6" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day6.Task1" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -129,16 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyTestCasePage.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyCartPage.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.AutomationExercise.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyTestCasePage" />
+      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day4" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day4.VerifyCartPage" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyAllproducts.test" />
-        <item itemvalue="TestNG.VerifyTestCasePage.test" />
-        <item itemvalue="TestNG.E2ETestCar.testName" />
-        <item itemvalue="TestNG.NegSmokeCarTest.test" />
-        <item itemvalue="TestNG.PosSmokeCarTest.testName" />
+        <item itemvalue="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/SomeClassInvokes.xml" />
+        <item itemvalue="TestNG.VerifyCartPage.test" />
+        <item itemvalue="TestNG.SubscriptionHomePage.test" />
+        <item itemvalue="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/somePackagesInvoke.xml" />
+        <item itemvalue="TestNG.Task1.test" />
       </list>
     </recent_temporary>
   </component>

@@ -21,7 +21,7 @@ public class AutomationExercise {
     //u can change change by number
     @FindBy (xpath = "//a[@href=\"/product_details/1\"]")
     public WebElement viewProductButton;
-    @FindBy
-    public WebElement jc;
+    @FindBy (xpath = "//a[@href=\"/view_cart\"]")
+    public WebElement buttonCart;
 
 }

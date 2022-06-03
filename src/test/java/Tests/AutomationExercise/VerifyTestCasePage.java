@@ -21,5 +21,11 @@ public class VerifyTestCasePage {
         boolean isNavigate= Driver.getDriver().getCurrentUrl().contains("test_cases");
         Assert.assertTrue(isNavigate);
         Driver.getClose();
+        /*
+         <classes>
+            <class name="Tests.AutomationExercise.VerifyAllproducts"></class>
+            <class name="SeleniumForthWeeks.SmokeTest.NegSmokeCarTest"/>
+        </classes>
+         */
     }
 }

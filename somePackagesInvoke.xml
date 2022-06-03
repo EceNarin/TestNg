@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PackagesInvoke">
+    <test name="smokes">
+       <packages>
+           <package name="seleniumThirdWeek4Day.Day4"></package>
+           <package name="seleniumThirdWeek4Day.Day5.tests"></package>
+           <package name="seleniumThirdWeek4Day.Day6"  ></package>
+       </packages>
+    </test>
+</suite>

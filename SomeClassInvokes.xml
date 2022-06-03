@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="someClasses">
+    <test name="verifys">
+        <classes>
+            <class name="seleniumThirdWeek4Day.Day4.VerifyCartPage"></class>
+            <class name="seleniumThirdWeek4Day.Day4.SubscriptionHomePage"></class>
+        </classes>
+    </test>
+</suite>
+       
