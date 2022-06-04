@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/XmlForGroupsExcludeInclude" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NotesAsFiles/XmlFromTesnNGWebSite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/VerifyProductChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/HotelMolyNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/PagesConfigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/amazonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useRaporAndParalel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/PosSmokeCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumForthWeeks/SmokeTest/PosSmokeCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeClassInvokes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeClassInvokes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/FaceBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/FaceBookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelMolyNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelMolyNegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/PagesConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/PagesConfigration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/amazonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/amazonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/SubscriptionHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/SubscriptionHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/VerifyCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/VerifyProductChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductChart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,30 +56,21 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests.AutomationExercise" />
       <recent name="seleniumThirdWeek4Day.Day6" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyProductChart.test">
-    <configuration name="C:/Users/himer/IdeaProjects/TestNg_com/useRaporAndParalel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/useRaporAndParalel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.VerifyProductQuantity.test">
     <configuration name="VerifyCartPage.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day4.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day4" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day4.VerifyCartPage" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyCartPage" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -117,16 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyProductChart.test (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyProductChart.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.VerifyProductChart" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyProductChart" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -139,12 +119,47 @@
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.VerifyProductChart" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyProductChart" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyProductQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.AutomationExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyProductQuantity" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyProductQuantity.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.AutomationExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyProductQuantity" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -155,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerifyProductQuantity.test" />
+        <item itemvalue="TestNG.VerifyProductQuantity" />
         <item itemvalue="TestNG.VerifyProductChart.test" />
         <item itemvalue="TestNG.VerifyProductChart.test (2)" />
         <item itemvalue="TestNG.VerifyCartPage.test" />
-        <item itemvalue="TestNG.VerifyProductChart.test (1)" />
-        <item itemvalue="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/useRaporAndParalel.xml" />
       </list>
     </recent_temporary>
   </component>

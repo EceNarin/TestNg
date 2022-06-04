@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day.Day5.tests;
+package Tests.AutomationExercise;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;

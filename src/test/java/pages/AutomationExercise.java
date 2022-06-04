@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import java.util.List;
+
 public class AutomationExercise {
     public AutomationExercise(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -20,15 +22,19 @@ public class AutomationExercise {
     @FindBy (xpath = "//a[@href=\"/products\"]")
     public WebElement productButton;
     //u can change change by number
+    @FindBy(xpath = "//ul[@class=\"nav nav-pills nav-justified\"]//a")
+    public List<WebElement> allProducts;
     @FindBy (xpath = "//a[@href=\"/product_details/1\"]")
     public WebElement viewProductButton;
     @FindBy (xpath = "//a[@href=\"/view_cart\"]")
     public WebElement viewButtonCart;
+    //(//a[@href="/view_cart"])[2]
     @FindBy(xpath = "//a[@data-product-id=\"1\"]")
     public WebElement buttonAddToCart;
     @FindBy(xpath = "//button[@data-dismiss=\"modal\"]")
     public  WebElement continueShop;
-
+    @FindBy (xpath = "//input[@min=\"1\"]")
+    public WebElement quantityButton;
     @FindBy
     public WebElement productByIndex;
     @FindBy

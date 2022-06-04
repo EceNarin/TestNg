@@ -2,8 +2,8 @@
 <suite name="someClasses">
     <test name="verifys">
         <classes>
-            <class name="seleniumThirdWeek4Day.Day4.VerifyCartPage"></class>
-            <class name="seleniumThirdWeek4Day.Day4.SubscriptionHomePage"></class>
+            <class name="Tests.AutomationExercise.VerifyAllproducts"></class>
+            <class name="Tests.AutomationExercise.VerifyProductChart"></class>
         </classes>
     </test>
 </suite>
