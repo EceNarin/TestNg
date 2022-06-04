@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Cross browser class calistirma">
+    <test name="Cross browser chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="seleniumThirdWeek4Day.Day6.E2ETest2"></class>
+            <class name="seleniumThirdWeek4Day.Day6.Task1"></class>
+        </classes>
+    </test>
+    <test name="Cross browser Edge">
+        <parameter name="browser" value="MicrosoftEdge"></parameter>
+        <classes>
+            <class name="seleniumThirdWeek4Day.Day6.Task1"></class>
+            <class name="seleniumThirdWeek4Day.Day6.E2ETest2"></class>
+        </classes>
+    </test>
+</suite>

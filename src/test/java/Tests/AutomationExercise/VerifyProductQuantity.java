@@ -22,7 +22,7 @@ public class VerifyProductQuantity extends TestBaseRapor {
         //2. Navigate to url 'http://automationexercise.com'
         Driver.getDriver().get(ConfigReader.getProperty("aeUrl"));
         //3. Verify that home page is visible successfully
-        extentTest.info("Verify that home page is visible");
+        extentTest.pass("Verify that home page is visible");
         AutomationExercise ae=new AutomationExercise();
         SoftAssert soft=new SoftAssert();
         soft.assertTrue(ae.homePage.isDisplayed());

@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrossBrowserClasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/PlaceOrderRegisterWhileCheckOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/E2ETest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SomeClassInvokes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeClassInvokes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/SubscriptionHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/SubscriptionHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day4/VerifyCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/VerifyProductChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +60,32 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Tests.AutomationExercise" />
       <recent name="seleniumThirdWeek4Day.Day6" />
+      <recent name="Tests.AutomationExercise" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyProductQuantity.test">
-    <configuration name="VerifyCartPage.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml">
+    <configuration name="C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/CrossBrowserClasses.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2ETest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day4" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyCartPage" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day6" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day6.E2ETest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -89,24 +102,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
       <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.VerifyProductChart" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyProductChart.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyProductChart" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -170,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml" />
+        <item itemvalue="TestNG.E2ETest2" />
         <item itemvalue="TestNG.VerifyProductQuantity.test" />
         <item itemvalue="TestNG.VerifyProductQuantity" />
         <item itemvalue="TestNG.VerifyProductChart.test" />
-        <item itemvalue="TestNG.VerifyProductChart.test (2)" />
-        <item itemvalue="TestNG.VerifyCartPage.test" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +211,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task2.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

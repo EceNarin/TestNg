@@ -14,11 +14,11 @@ public class Driver {
     public static WebDriver getDriver(){
         if (driver == null) {
             switch (ConfigReader.getProperty("browser")){
-                case "google":
+                case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver=new ChromeDriver();
                     break;
-                case "MicrosofEdge":
+                case "MicrosoftEdge":
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver();
                     break;

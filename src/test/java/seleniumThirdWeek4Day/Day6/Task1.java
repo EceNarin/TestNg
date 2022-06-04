@@ -1,40 +1,52 @@
 package seleniumThirdWeek4Day.Day6;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import utilities.ConfigReader;
-import utilities.Driver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import utilities.TestBaseCross;
 
-public class Task1 {
+import java.time.Duration;
+
+public class Task1 extends TestBaseCross {
+    WebDriver driver;
     @Test
-    public void test() {
-        //    http://demo.guru99.com/test/drag_drop.html url e git
-         Driver.getDriver().get(ConfigReader.getProperty("demoGuru99"));
-        //    DEBIT SIDE da Account bolumune BANK butonunu surukle ve birak
-        Actions action=new Actions(Driver.getDriver());
-        WebElement source=Driver.getDriver().findElement(By.xpath("//li[@id=\"credit2\"]"));
-        WebElement target=Driver.getDriver().findElement(By.xpath("(//li[@class=\"placeholder\"])[1]"));
-        action.dragAndDrop(source,target).perform();
-        //    CREDIT SIDE da Account bolumune SALES butonunu surukle ve birak
-        WebElement source2=Driver.getDriver().findElement(By.xpath("//li[@data-id=\"6\"]"));
-        WebElement target2=Driver.getDriver().findElement(By.xpath("//ol[@id=\"loan\"]"));
-        action.dragAndDrop(source2,target2).perform();
-        //    DEBIT SIDE da Amount bolumune 5000 butonunu surukle ve birak
-        WebElement source3=Driver.getDriver().findElement(By.xpath("(//li[@data-id=\"2\"])[1]"));
-        WebElement target3=Driver.getDriver().findElement(By.xpath("//ol[@id=\"amt7\"]"));
-        action.dragAndDrop(source3,target3).perform();
-       //    CREDIT SIDE da Amount bolumune ise ikinci 5000  butonunu surukle ve birak
-        WebElement source4=Driver.getDriver().findElement(By.xpath("(//li[@data-id=\"2\"])[2]"));
-        WebElement target4=Driver.getDriver().findElement(By.xpath("//ol[@id=\"amt8\"]"));
-        action.dragAndDrop(source4,target4).perform();
-        //    Perfect butonun goruntulendigini dogrulayin
-        Assert.assertTrue(Driver.getDriver().findElement(By.xpath("(//a[@class=\"button button-green\"])[1]")).isDisplayed());
-        Driver.getClose();
+    public void name() {
+        //TASK 1 - JUnit ve TestBase kullanmadan main metot ile yapılacak.
+//1. Driver oluştur.
+//2. Pencereyi tam ekran yap.
+//3. 15 saniye bekleme ayarı yap.
+        WebDriverManager.chromedriver().setup();
+      driver=new ChromeDriver();
+      driver.manage().window().maximize();
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        //4. https://www.trivago.com/ adresine git
+        driver.get("https://www.trivago.com/");
+        //5. Site başlığının "hotel" kelimesi içerdiğini doğrula. Başlığı yazdır.
+        System.out.println(driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("hotel"));
+        //6. Site adresinin https://www.trivago.com/ olduğunu doğrula. Adresi yazdır
+        Assert.assertTrue(driver.getCurrentUrl().equals("https://www.trivago.com/"));
+        System.out.println(driver.getCurrentUrl());
+        //7. Tepe menüdeki Cars linkini üç farklı locator kullanarak locate et. Locatorleri yazdır.
+        //first locate of cars element
+        WebElement we=driver.findElement(By.xpath("//li[@class=\"flex items-center relative px-4 text-m hover:bg-grey-200\"]"));
+        //second locate of cars element
+        //driver.findElement(By.xpath("(//a[@class=\"flex items-center h-full\"])[1]"));
+        //third locate of cars element
+        //driver.findElement(By.tagName("/en-US/vrt/cars"));
+
+        driver.close();
 
 
     }
 
-}
+    }
+
+
+
+
+
