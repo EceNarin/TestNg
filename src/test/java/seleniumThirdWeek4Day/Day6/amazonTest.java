@@ -1,4 +1,4 @@
-package seleniumThirdWeek4Day.Day5.tests;
+package seleniumThirdWeek4Day.Day6;
 
 import org.testng.annotations.Test;
 import utilities.Driver;

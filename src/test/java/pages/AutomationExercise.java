@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -22,6 +23,23 @@ public class AutomationExercise {
     @FindBy (xpath = "//a[@href=\"/product_details/1\"]")
     public WebElement viewProductButton;
     @FindBy (xpath = "//a[@href=\"/view_cart\"]")
-    public WebElement buttonCart;
+    public WebElement viewButtonCart;
+    @FindBy(xpath = "//a[@data-product-id=\"1\"]")
+    public WebElement buttonAddToCart;
+    @FindBy(xpath = "//button[@data-dismiss=\"modal\"]")
+    public  WebElement continueShop;
+
+    @FindBy
+    public WebElement productByIndex;
+    @FindBy
+    public WebElement productDetailsByIndex;
+    public WebElement choiceProductChartByIndex(int x){
+
+        return productByIndex=Driver.getDriver().findElement(By.xpath("(//a[@data-product-id=\""+x+"\"])[1]"));
+    }
+    public WebElement choiceProductDetailsByIndex(int x){
+
+        return productDetailsByIndex=Driver.getDriver().findElement(By.xpath("//a[@href='/product_details/"+x+"']"));
+    }
 
 }

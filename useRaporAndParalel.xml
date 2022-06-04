@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="raportestleri calistirma" verbose="3" parallel="classes" thread-count="2">
+    <test name="paralel reports">
+        <packages>
+            <package name="seleniumThirdWeek4Day.Day5.tests"> </package>
+        </packages>
+    </test>
+</suite>

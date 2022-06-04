@@ -1,0 +1,146 @@
+
+      https://testng.org/doc/documentation-main.html#testng-xml
+
+        public class Test1 {
+          @Test(groups = { "functest", "checkintest" })
+          public void testMethod1() {
+          }
+
+          @Test(groups = {"functest", "checkintest"} )
+          public void testMethod2() {
+          }
+
+          @Test(groups = { "functest" })
+          public void testMethod3() {
+          }
+        }
+
+        <test name="Test1">
+          <groups>
+            <run>
+              <include name="functest"/>
+            </run>
+          </groups>
+          <classes>
+            <class name="example1.Test1"/>
+          </classes>
+        </test>
+
+        @Test
+        public class Test1 {
+          @Test(groups = { "windows.checkintest" })
+          public void testWindowsOnly() {
+          }
+
+          @Test(groups = {"linux.checkintest"} )
+          public void testLinuxOnly() {
+          }
+
+          @Test(groups = { "windows.functest" )
+          public void testWindowsToo() {
+          }
+        }
+
+        <test name="Test1">
+          <groups>
+            <run>
+              <include name="windows.*"/>
+            </run>
+          </groups>
+
+          <classes>
+            <class name="example1.Test1"/>
+          </classes>
+        </test>
+
+            Method groups
+            You can also exclude or include individual methods:
+            <test name="Test1">
+              <classes>
+                <class name="example1.Test1">
+                  <methods>
+                    <include name=".*enabledTestMethod.*"/>
+                    <exclude name=".*brokenTestMethod.*"/>
+                  </methods>
+                 </class>
+              </classes>
+            </test>
+            This can come in handy to deactivate a single method without having to recompile anything, but I don't recommend using this technique
+            too much since it makes your testing framework likely to break if you start refactoring your
+            Java code (the regular expressions used in the tags might not match your methods any more).
+            5.3 - Groups of groups
+            Groups can also include other groups. These groups are called "MetaGroups".  For example, you might want to define a group "all" that includes "checkintest" and "functest".  "functest" itself will contain the groups "windows" and "linux" while "checkintest will only contain "windows".  Here is how you would define this in your property file:
+            <test name="Regression1">
+              <groups>
+                <define name="functest">
+                  <include name="windows"/>
+                  <include name="linux"/>
+                </define>
+
+                <define name="all">
+                  <include name="functest"/>
+                  <include name="checkintest"/>
+                </define>
+
+                <run>
+                  <include name="all"/>
+                </run>
+              </groups>
+
+              <classes>
+                <class name="test.sample.Test1"/>
+              </classes>
+            </test>
+            5.4 - Exclusion groups
+            TestNG allows you to include groups as well as exclude them.
+
+            For example, it is quite usual to have tests that temporarily break because of a recent change, and you don't have time to fix the breakage yet.  4 However, you do want to have clean runs of your functional tests, so you need to deactivate these tests but keep in mind they will need to be reactivated.
+            A simple way to solve this problem is to create a group called "broken" and make these test methods belong to it.  For example, in the above example, I know that testMethod2() is now broken so I want to disable it:
+
+            @Test(groups = {"checkintest", "broken"} )
+            public void testMethod2() {
+            }
+            All I need to do now is to exclude this group from the run:
+            <test name="Simple example">
+              <groups>
+                <run>
+                  <include name="checkintest"/>
+                  <exclude name="broken"/>
+                </run>
+              </groups>
+
+              <classes>
+                <class name="example1.Test1"/>
+              </classes>
+            </test>
+            This way, I will get a clean test run while keeping track of what tests are broken and need to be fixed later.
+
+            Note:  you can also disable tests on an individual basis by using the "enabled" property available on both @Test and @Before/After annotations.
+
+            5.5 - Partial groups
+            You can define groups at the class level and then add groups at the method level:
+            @Test(groups = { "checkin-test" })
+            public class All {
+
+              @Test(groups = { "func-test" )
+              public void method1() { ... }
+
+              public void method2() { ... }
+            }
+            In this class, method2() is part of the group "checkin-test", which is defined at the class level, while method1()
+            belongs to both "checkin-test" and "func-test".
+            5.6 - Parameters
+            Test methods don't have to be parameterless.  You can use an arbitrary number of parameters on each of your test method,
+             and you instruct TestNG to pass you the correct parameters with the @Parameters annotation.
+
+            There are two ways to set these parameters:  with testng.xml or programmatically.
+
+            5.6.1 - Parameters from testng.xml
+            If you are using simple values for your parameters, you can specify them in your testng.xml:
+            view sourceprint?
+            @Parameters({ "first-name" })
+            @Test
+            public void testSingleString(String firstName) {
+              System.out.println("Invoked testString " + firstName);
+              assert "Cedric".equals(firstName);
+            }
