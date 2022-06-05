@@ -1,0 +1,16 @@
+        
+        1. File – New – Project e tikliyoruz
+        2. Maven’i seciyoruz
+        3. Name’e projemizin ismini yaziyoruz
+        4. Cikan Alert mesajinda New Window veya This Window secilebilir
+        5. Pom xml’imizi düzenliyoruz
+        a) <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        </properties>
+        *** bu kod Javanin sürümüyle alakali sorunlari halletmeye yariyor
+        b) <dependencies>
+        
+        Kutuphanelerimizi bu tag’lar arasina yazıyoruz
+        
+        </dependencies>

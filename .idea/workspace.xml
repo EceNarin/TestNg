@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d51e8fa-9b5d-4c7c-a6bd-e31767b97262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CrossBrowserClasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/PlaceOrderRegisterWhileCheckOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/E2ETest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/1CreateMaven" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/2AddLibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/3FrameWorkPackageCreate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/4ResourcesConfigrationPropertyConfigreader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/5DriverClass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HowToCreateJUnirSampleProjects/6PagesPackages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ParalelTestingCrossBrowser/PlaceOrderRegisterWhileCheckOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day5/tests/DataProvider1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/VerifyProductQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumThirdWeek4Day/Day6/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/PlaceOrderRegisterWhileCheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AutomationExercise/PlaceOrderRegisterWhileCheckOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationExercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +61,33 @@
       <recent name="C:\Users\himer\IdeaProjects\TestNg_com\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests.ParalelTestingCrossBrowser" />
       <recent name="seleniumThirdWeek4Day.Day6" />
       <recent name="Tests.AutomationExercise" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml">
+  <component name="RunManager" selected="TestNG.PlaceOrderRegisterWhileCheckOut.test">
     <configuration name="C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/CrossBrowserClasses.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProvider1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNg_com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.DataProvider1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -92,43 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyProductChart.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.VerifyProductChart" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyProductChart.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNg_com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumThirdWeek4Day.Day5.tests" />
-      <option name="MAIN_CLASS_NAME" value="seleniumThirdWeek4Day.Day5.tests.AutomationExercise.VerifyProductChart" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyProductQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaceOrderRegisterWhileCheckOut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +120,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyProductQuantity" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.PlaceOrderRegisterWhileCheckOut" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -145,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyProductQuantity.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaceOrderRegisterWhileCheckOut.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNg_com" />
       <extension name="coverage">
         <pattern>
@@ -154,7 +137,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests.AutomationExercise" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.VerifyProductQuantity" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AutomationExercise.PlaceOrderRegisterWhileCheckOut" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -165,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PlaceOrderRegisterWhileCheckOut.test" />
+        <item itemvalue="TestNG.PlaceOrderRegisterWhileCheckOut" />
+        <item itemvalue="TestNG.DataProvider1" />
         <item itemvalue="TestNG.C:/Users/himer/IdeaProjects/TestNg_com/src/CrossBrowserClasses.xml" />
         <item itemvalue="TestNG.E2ETest2" />
-        <item itemvalue="TestNG.VerifyProductQuantity.test" />
-        <item itemvalue="TestNG.VerifyProductQuantity" />
-        <item itemvalue="TestNG.VerifyProductChart.test" />
       </list>
     </recent_temporary>
   </component>

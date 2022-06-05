@@ -1,0 +1,16 @@
+
+
+            16) Driver class’ini düzenliyoruz
+            Singleton class : object olusturulmasi
+            kontrol altina alinan (genelde izin verilmeyen)
+            classdir. Bunun icin baska classlarda Driver
+            clasindan obje uretmemizi saglayan default
+            constructor‘i gorunur sekilde yazip access
+            modifier'i private yapariz
+            Bu class’da test class’larimizda
+            kullanacagimiz driver’i olusturacak ve
+            kapatacak getDriver( ) ve closeDriver( )
+            methodlarini olusturuyoruz
+            Bu methodlari static yaparak obje
+            olusturmadan Class adi ile cagirmak icin
+            kullanisli hale getiriyoruz

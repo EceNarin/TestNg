@@ -1,0 +1,38 @@
+
+
+            6) https://mvnrepository.com/ a gidip kutuphanelerimizi tek tek aliyoruz
+            a)Selenium-Java Kutuphanesi
+
+                <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+                    <dependency>
+                        <groupId>org.seleniumhq.selenium</groupId>
+                        <artifactId>selenium-java</artifactId>
+                        <version>4.1.3</version>
+                    </dependency>
+
+            b) WebDriverManager Kutuphanesi
+
+             <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+                    <dependency>
+                        <groupId>io.github.bonigarcia</groupId>
+                        <artifactId>webdrivermanager</artifactId>
+                        <version>5.1.0</version>
+                    </dependency>
+
+            c) Testng Kutuphanesi
+
+            <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+                    <dependency>
+                        <groupId>org.testng</groupId>
+                        <artifactId>testng</artifactId>
+                        <version>7.5</version>
+                        <scope>test</scope>
+                    </dependency>
+
+            d) Java Faker Kutuphanesi
+
+            <dependency>
+                        <groupId>com.github.javafaker</groupId>
+                        <artifactId>javafaker</artifactId>
+                        <version>1.0.2</version>
+                    </dependency>

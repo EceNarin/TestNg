@@ -1,0 +1,31 @@
+
+
+        12) Reasources paketi olusturma:
+
+        Java’ya sag tikliyoruz-new-package -->resources (yeni package)
+        Bu resources paketinin altina dokumanlarimizi copy-paste ederiz
+
+        13) configuration.properties dosyasi olusturma
+
+        En yukarda Projemize sag tikliyoruz new- File ‘ a tikliyoruz
+        Ismi önemli değil ama uzantisi MUTLAKA .properties olmali
+        İsmi configuration.properties yazıyoruz
+        Bu dosyanin içine Data’larimizi key=value seklinde yazıyoruz
+        kr_url= https://www.hotelmycamp.com/
+        kr_valid_username=manager
+        kr_valid_password=Manager1!
+        14) ConfigReader Class’I olusturma
+
+        utilities package inin altinda ConfigReader Classi oluşturuyoruz. Bu class
+        configuration.properties deki dosyalarimizi okumak için bir araci
+        15) ConfigReader Classinda :
+        1-ilk yapacagimiz sey Instance olarak
+        Properties objesi olusturmak. Bu objeyi
+        static blok icinde kullanacagimdan
+        static yapmam gerek
+        Bu objeyi sadece bu class ta
+        kullanacagim icin private yapmamiz
+        önerilir
+        2-Properties objesini kullanmak uzere
+        bir static blok kurmaliyiz. neden static?
+        Cunku her zaman ilk static block calisir

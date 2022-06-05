@@ -29,10 +29,19 @@ public class AutomationExercise {
     @FindBy (xpath = "//a[@href=\"/view_cart\"]")
     public WebElement viewButtonCart;
     //(//a[@href="/view_cart"])[2]
+    //(//a[@href="/login"])[1]
+    @FindBy(xpath = "(//a[@href=\"/login\"])[1]")
+    public WebElement signInSignUp;
     @FindBy(xpath = "//a[@data-product-id=\"1\"]")
     public WebElement buttonAddToCart;
+    @FindBy(xpath = "//ul[@class=\"nav navbar-nav\"]//li[5]/a")
+    public WebElement deleteAccountButton;
+    @FindBy(xpath = "//input[@name=\"name\"]")
+    public WebElement newUserName;
     @FindBy(xpath = "//button[@data-dismiss=\"modal\"]")
     public  WebElement continueShop;
+    @FindBy(xpath = "//ul[@class=\"nav navbar-nav\"]//li[9]/a/b")
+    public WebElement visibleTopNameAsUser;
     @FindBy (xpath = "//input[@min=\"1\"]")
     public WebElement quantityButton;
     @FindBy

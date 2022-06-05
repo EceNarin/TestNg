@@ -1,0 +1,9 @@
+
+
+            18) pages package inin altinda kullanacagimiz her websayfasi icin bir page Class’I olustururuz
+            a) Bu class’da ilk yapmamiz gereken test class’larinda bu class’dan obje uretebilmemiz
+            icin gerekli olan Constructor’i olusturmaktir.
+
+            b) Ardinda Locate işlemlerimizin tamamini yazıyoruz
+            bu sayfaya
+            @FindBy notations

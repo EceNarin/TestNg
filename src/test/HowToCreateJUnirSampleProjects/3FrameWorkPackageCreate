@@ -1,0 +1,16 @@
+
+
+        7) Pom Dosyasini oluşturma işlemimiz bitti. Kutuphaneler kirmizi renkte olabilir. Sag tarafta
+        Maven yazan sekmede Reload oklarina tiklayip beklediğimiz de hata gitmiş oluyor
+        8) Kullanicinin gordugu arayuzde test ederiz. (UI)
+        Kullanacagimiz paketleri uygun isimlerde test-Java bolumun içerisinde oluşturuyoruz
+        9) Java ya sag tiklariz new package – com (paketin ismi ) yazariz
+        10) com package’ina sag tiklariz – new package – techproed (paketin ismi) yazariz
+        11) artik projemiz com. techproed
+
+        Bu package’in altina frameworkumuzun package’larini yolusturuyoruz. Bunlar
+
+        A-pages
+        B-smokeTest
+        C-tests
+        D-utilities
